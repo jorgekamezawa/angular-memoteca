@@ -7,22 +7,16 @@
       "modelo": "modelo1"
     },
     {
-      "id": 2,
-      "conteudo": "Estudando Angular",
-      "autoria": "Dev Alura",
+      "id": 3,
+      "conteudo": "Java é melhor",
+      "autoria": "Jorgin da 12",
       "modelo": "modelo2"
     },
     {
-      "id": 3,
-      "conteudo": "Angular é o melhor",
-      "autoria": "Dev Alura",
-      "modelo": "modelo3"
-    },
-    {
-      "conteudo": "asas",
-      "autoria": "sss",
-      "modelo": "modelo1",
-      "id": 4
+      "id": 4,
+      "conteudo": "Kotlin é bom 2",
+      "autoria": "Kamezawa 2",
+      "modelo": "modelo2"
     }
   ]
 }
