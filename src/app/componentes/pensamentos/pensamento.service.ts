@@ -13,7 +13,7 @@ export class PensamentoService {
     private http: HttpClient
   ) { }
 
-  listar(pagina: number, filtro: string): Observable<Pensamento[]> {
+  listar(pagina: number, filtro: string, favoritos: boolean): Observable<Pensamento[]> {
     const internsPorPagina = 5;
     // Nao deve usar desse jeito concatenando na "mao"
     // const url = `${this.API}?_page${pagina}&_limit=${internsPorPagina}`
@@ -23,6 +23,10 @@ export class PensamentoService {
 
     if(filtro.trim().length > 1) {
       params = params.set("q", filtro)
+    }
+
+    if(favoritos) {
+      params = params.set("favorito", favoritos)
     }
 
     return this.http.get<Pensamento[]>(this.API, { params })

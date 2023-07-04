@@ -25,7 +25,7 @@
       "conteudo": "Da vida reclama, mas sem ela não vive!",
       "autoria": "Mestre Yoda",
       "modelo": "modelo1",
-      "favorito": false,
+      "favorito": true,
       "id": 6
     },
     {
@@ -144,7 +144,7 @@
       "conteudo": "Resolver o bug não consegue? Esfriar a cabeça você deve.",
       "autoria": "Mestre Yoda",
       "modelo": "modelo1",
-      "favorito": false,
+      "favorito": true,
       "id": 27
     },
     {
